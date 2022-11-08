@@ -11,7 +11,7 @@ namespace Palindrome.Tests
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
       PalindromeChecker testPalindromeChecker = new PalindromeChecker();
-      Assert.AreEqual(true, testPalindromeChecker("rat"));
+      Assert.AreEqual(true, testPalindromeChecker.IsPalindromeString(""));
     }
   }
 }
